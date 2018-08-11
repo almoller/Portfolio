@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "header": "NYT Article Search",
+    "image": "images/buildings.jpg",
+    "info": "MERN Stack application uses New York Times API for searching, saving and removing articles.",
+    "url": "https://articlesearch-am.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "header": "Pretty Flowers",
+    "image": "images/2-flower.jpg",
+    "info": "If you like flowers then this is the app for you. Only found in the mountains near salt",
+    "url": "https://www.weather.gov"
+  },
+  {
+    "id": 3,
+    "header": "Broads Fork",
+    "image": "images/3-broads.jpg",
+    "info": "This is my favorite basin in the wasatch. There is a secret meadow near the top that is a wonderful place to relax.",
+    "url": "https://www.weather.gov"
+  },
+  {
+    "id": 4,
+    "header": "Cliffy App",
+    "image": "images/7-lone.jpg",
+    "info": "This is an amazing app that does nothing more than display a picture of golden grass.",
+    "url": "https://www.ksl.com"
+  },
+  {
+    "id": 5,
+    "header": "Maybird Finder",
+    "image": "images/4-maybird.jpg",
+    "info": "If you like flowers then this is the app for you. Only found in the mountains near salt",
+    "url": "https://www.weather.gov"
+  },
+  {
+    "id": 6,
+    "header": "Waterfall",
+    "image": "images/11-bellsCanyon.jpg",
+    "info": "This is the upper falls in Bells Canyon. It rages in Spring and hides by Autumn.",
+    "url": "https://www.weather.gov"
+  }
+]
