@@ -106,12 +106,29 @@ ul {
   background: black;
   /* margin-top: auto; */
   padding: 5px 0;
-  color: #ffffff;
+  color: #dddddd;
   text-align: center;
   font-size: 12px;
   border-radius: 5px 5px 0 0;
 }
 
+.footerLinks {
+  margin-top: 15px;
+}
+
+.footerLink {
+  color: #888888;
+  margin: 0 10px;
+}
+
+.footerLink:hover {
+  color: #fff;
+}
+
+.footer p {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
 
 @media only screen and (min-width: 660px) {
   header {

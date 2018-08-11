@@ -58,8 +58,12 @@ class App extends Component {
           <footer className="footer">
             <Row>
               <Col size='sm-12'>
-                <p>Copywrite 2018 Alan Moller</p>
-                <Link to="/contact">Contact</Link>
+              <div className="footerLinks">
+                <Link className="footerLink" to="/">Portfolio</Link>
+                <Link className="footerLink" to="/about">About</Link>
+                <Link className="footerLink" to="/contact">Contact</Link>
+              </div>
+                <p>&copy; 2018 Alan Moller</p>
               </Col>
             </Row>
           </footer>
