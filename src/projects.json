@@ -2,43 +2,43 @@
   {
     "id": 1,
     "header": "NYT Article Search",
-    "image": "images/buildings.jpg",
-    "info": "MERN Stack application uses New York Times API for searching, saving and removing articles.",
+    "image": "images/buildings.png",
+    "info": "MERN Stack application uses New York Times API to search for articles. Connects with a database for saving and removing found articles.",
     "url": "https://articlesearch-am.herokuapp.com/"
   },
   {
     "id": 2,
-    "header": "Pretty Flowers",
-    "image": "images/2-flower.jpg",
-    "info": "If you like flowers then this is the app for you. Only found in the mountains near salt",
-    "url": "https://www.weather.gov"
+    "header": "Memory Game",
+    "image": "images/memoryGame.png",
+    "info": "React App memory game consisting of 12 images which shuffle with each click. The goal is to click each image only once.",
+    "url": "https://almoller.github.io/memory-game/"
   },
   {
     "id": 3,
-    "header": "Broads Fork",
-    "image": "images/3-broads.jpg",
-    "info": "This is my favorite basin in the wasatch. There is a secret meadow near the top that is a wonderful place to relax.",
-    "url": "https://www.weather.gov"
+    "header": "Crystal Collector Game",
+    "image": "images/triangles.png",
+    "info": "Javascript / jQuery app. The goal is to match a given number by selecting crystals each worth hidden random values.",
+    "url": "https://almoller.github.io/crystal-collector-game/"
   },
   {
     "id": 4,
-    "header": "Cliffy App",
+    "header": "Timed Trivia",
     "image": "images/7-lone.jpg",
-    "info": "This is an amazing app that does nothing more than display a picture of golden grass.",
-    "url": "https://www.ksl.com"
+    "info": "Javascript / jQuery app. The goal is to answer a set of questions about the Wasatch Mountains before a timer runs out.",
+    "url": "https://almoller.github.io/TriviaGame/"
   },
   {
     "id": 5,
-    "header": "Maybird Finder",
-    "image": "images/4-maybird.jpg",
-    "info": "If you like flowers then this is the app for you. Only found in the mountains near salt",
-    "url": "https://www.weather.gov"
+    "header": "Gif App",
+    "image": "images/gifApp.png",
+    "info": "Javascript / jQuery app. Uses AJAX request to an API. Create custom topic buttons to generate a set of related gifs.",
+    "url": "https://almoller.github.io/Gif-App/"
   },
   {
     "id": 6,
-    "header": "Waterfall",
-    "image": "images/11-bellsCanyon.jpg",
-    "info": "This is the upper falls in Bells Canyon. It rages in Spring and hides by Autumn.",
-    "url": "https://www.weather.gov"
+    "header": "Bamazon App",
+    "image": "images/bamazon.png",
+    "info": "Node.JS App that uses MySQL database.  App lists items from the database and updates item info based on user selections.",
+    "url": "https://github.com/almoller/bamazon"
   }
 ]

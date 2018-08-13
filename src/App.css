@@ -1,5 +1,7 @@
 body {
-  background-image: url('./images/purty_wood.png');
+  /* background-image: url('./images/purty_wood.png'); */
+  /* background-image: url('./images/black-Linen.png'); */
+  background-image: url('./images/wild_oliva.png');
 }
 
 .row {
@@ -71,6 +73,13 @@ ul {
   box-shadow: 2px 3px 5px #888888;
 }
 
+.pageTitle {
+  color: #fff;
+  border-bottom: solid 2px greenyellow;
+  width: 75%;
+  margin: 0 auto;
+}
+
 .projectSection {
   display: flex;
   flex-wrap: wrap;
@@ -90,10 +99,19 @@ ul {
   margin: 10px;
 }
 
+.title {
+  color: #fff;
+  font-weight: bold;
+}
+
+.info {
+  color: rgb(219, 219, 219);
+  font-weight: 100;
+}
+
 .jumbotron {
-  height: 200px;
-  clear: both; 
-  padding-top: 75px; 
+  /* height: 200px; */
+  /* padding-top: 75px;  */
   text-align: center;
   background: darkblue;
   background-image: url('./images/topography.png');
