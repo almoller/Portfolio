@@ -1,6 +1,4 @@
 body {
-  /* background-image: url('./images/purty_wood.png'); */
-  /* background-image: url('./images/black-Linen.png'); */
   background-image: url('./images/wild_oliva.png');
 }
 
@@ -9,8 +7,6 @@ body {
 }
 
 .container-fluid {
-  /* background-image: url('./images/purty_wood.png'); */
-
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -21,6 +17,9 @@ body {
 .content {
   flex: 1 0 auto;
 }
+
+
+/***** HEADER & NAVBAR *****/
 
 header {
   display: flex;
@@ -73,11 +72,23 @@ ul {
   box-shadow: 2px 3px 5px #888888;
 }
 
+
+/***** PORTFOLIO - Web Development *****/
+
 .pageTitle {
   color: #fff;
   border-bottom: solid 2px greenyellow;
   width: 75%;
   margin: 0 auto;
+}
+
+.pageSubTitle {
+  font-size: 12pt;
+  color: #fff;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 5px;
+
 }
 
 .projectSection {
@@ -90,6 +101,18 @@ ul {
   width: 200px;
   margin: 15px;
   text-align: center;
+}
+
+.projectLink {
+  border-bottom: solid 1px rgba(0, 0, 0, 0);
+}
+
+.projectLink a:hover {
+  text-decoration: none;
+}
+
+.projectLink:hover {
+  border-bottom: solid 1px greenyellow;
 }
 
 .projectImage img {
@@ -113,10 +136,63 @@ ul {
   /* height: 200px; */
   /* padding-top: 75px;  */
   text-align: center;
-  background: darkblue;
   background-image: url('./images/topography.png');
   /* background-size: cover;  */
 }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* list-style: none; */
+}
+
+.skills li {
+  list-style: none;
+  margin: 5px;
+}
+
+
+/***** ABOUT Page  *****/
+.profilePic img{
+  margin: 10px;
+  border-radius: 100px;
+}
+
+.aboutText {
+  color: #fff;
+}
+.aboutSection {
+  margin-top: 20px;
+}
+
+.aboutWebSection {
+  background: rgba(175, 175, 175, 0.3);
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.aboutSubTitle {
+  color: #fff;
+  font-size: 18pt;
+  border-bottom: solid 1px greenyellow;
+  margin: 0 auto;
+  padding: 20px 0 5px 0;
+}
+
+.aboutEduDate {
+  color: #dddddd;
+  font-style: italic;
+  font-size: 11pt;
+  margin-top: 5px;
+}
+
+.aboutWebContent {
+  margin-top: 20px;
+}
+
+
+/***** FOOTER *****/
 
 .footer {
   flex-shrink: 0;
@@ -147,6 +223,9 @@ ul {
   margin-top: 15px;
   margin-bottom: 5px;
 }
+
+
+/***** Responsive Adjustments *****/
 
 @media only screen and (min-width: 660px) {
   header {

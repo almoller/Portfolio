@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 // import './App.css';
 import { Container, Row, Col } from '../components/Grid';
 import Jumbotron from '../components/Jumbotron';
+import Skills from '../components/Skills';
 import Project from '../components/Project';
 import projects from '../projects.json';
-import badge from '../images/coding-badge-UofU.png';
+// import badge from '../images/coding-badge-UofU.png';
 
 
 class Portfolio extends Component {
@@ -16,6 +17,7 @@ class Portfolio extends Component {
       return (
         <Container fluid>
         <h2 className='text-center pageTitle'>Portfolio</h2>
+        <h3 className='pageSubTitle'>Web Development</h3>
           <Row>
             <Col size='sm-12'>
             <div className="projectSection">
@@ -34,29 +36,12 @@ class Portfolio extends Component {
           </Row>
   
           <Row>
-            <Col size="lg-6">
+            <Col size="12">
               <Jumbotron>
-                <Row>
-                  <Col size='sm-6'>
-                    <h1>Web Dev Skills</h1>
-                    <ul>
-                      <li>HTML5/CSS</li>
-                      <li>Javascript</li>
-                    </ul>
-                  </Col>
-                  <Col size='sm-6'>
-                    <a href="https://www.youracclaim.com/badges/659bc848-aa14-48cb-b208-aa90946c111c/public_url">
-                      <img src={badge} width="150px" height="150px" alt="badge" />
-                    </a>
-                  </Col>
-                </Row>
+                <Skills />
               </Jumbotron>
             </Col>
-            <Col size="lg-6">
-              <Jumbotron>
-                <h1>3 is best!</h1>
-              </Jumbotron>
-            </Col>
+            
           </Row>
   
             
