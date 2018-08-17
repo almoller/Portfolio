@@ -16,9 +16,11 @@ const AboutWeb = () => (
       </p>
     </Col>
     <Col size='md-6'>
+    <div className='text-center'>
       <a href="https://www.youracclaim.com/badges/659bc848-aa14-48cb-b208-aa90946c111c/public_url">
-        <img src={badge} width="75px" height="75px" alt="badge" />
+        <img src={badge} width="150px" height="150px" alt="badge" />
       </a>
+      </div>
     </Col>
   </Row>
   </div>

@@ -55,7 +55,7 @@ class About extends Component {
         <Row>
           <Col size='12'>
             <h3 className='aboutSubTitle text-center text-md-left'>Graphic Design</h3>
-            <h6 className='aboutEduDate text-center text-md-left'>Utah Valley University 2012</h6>
+            <h6 className='aboutEduDate text-center text-md-left'>AAS - Utah Valley University 2012</h6>
             <AboutDesign />
           </Col>
         </Row>
@@ -63,7 +63,7 @@ class About extends Component {
         <Row>
           <Col size='12'>
             <h3 className='aboutSubTitle text-center text-md-left'>Meteorology</h3>
-            <h6 className='aboutEduDate text-center text-md-left'>University of Utah 2006</h6>
+            <h6 className='aboutEduDate text-center text-md-left'>BS - University of Utah 2006</h6>
             <AboutMeteo />
           </Col>
         </Row>

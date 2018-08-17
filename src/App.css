@@ -154,8 +154,9 @@ ul {
 
 
 /***** ABOUT Page  *****/
+
 .profilePic img{
-  margin: 10px;
+  margin: 10px 10px 25px 10px;
   border-radius: 100px;
 }
 
@@ -177,7 +178,8 @@ ul {
   font-size: 18pt;
   border-bottom: solid 1px greenyellow;
   margin: 0 auto;
-  padding: 20px 0 5px 0;
+  
+  padding: 35px 0 5px 0;
 }
 
 .aboutEduDate {
@@ -187,8 +189,54 @@ ul {
   margin-top: 5px;
 }
 
+.card-body {
+  padding: 20px 50px;
+}
+
+.aboutExperienceJob {
+  color: black;
+  font-size: 14pt;
+  border-bottom: solid 1px greenyellow;
+  margin: 0 auto;
+  padding: 20px 0 5px 0;
+}
+
+.aboutExperienceDate {
+  color: #888888;
+  font-style: italic;
+  font-size: 10pt;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
+.aboutExperienceRole {
+  color: #888888;
+  font-size: 12pt;
+  margin-top: 5px;
+}
+
 .aboutWebContent {
   margin-top: 20px;
+}
+
+.card {
+  /* background: rgba(255, 255, 255, 0.7); */
+  /* background: none; */
+  background-image: url('./images/topography.png');
+  border: none;
+}
+
+/* .card {
+  border: none;
+  margin: 0;
+} */
+
+
+/***** CONTACT *****/
+
+.icon img{
+  padding: 10px;
+  border-bottom: solid 1px greenyellow;
 }
 
 
@@ -223,6 +271,7 @@ ul {
   margin-top: 15px;
   margin-bottom: 5px;
 }
+
 
 
 /***** Responsive Adjustments *****/
