@@ -13,7 +13,7 @@ class About extends Component {
       <Container>
       
       <h2 className='text-center pageTitle'>About</h2>
-      <div className='text-center text-md-left aboutSection'>
+      <div className='text-center aboutSection'>
         <Row>
           <Col size='md-4'>
             <div className='profilePic mt-md-5 mt-lg-1'>
@@ -21,7 +21,7 @@ class About extends Component {
             </div>
           </Col>
           <Col size='md-8'>
-            <p className='aboutText'>
+            <p className='text-left aboutText'>
               Utah has been my home throughout my life and I have 
               always enjoyed exploring its many outdoor recreational 
               opportunities. From the highest peaks of the Northern 
@@ -29,10 +29,10 @@ class About extends Component {
               I enjoy it all via hiking, backpacking, snowshoeing, 
               and skiing.
             </p>
-            <p className='aboutText'>
+            <p className='text-left aboutText'>
               My educational background includes Meteorology, 
               Graphic Design, and now Web Development. I am excited at 
-              the prospect of of developing new skills and gaining new 
+              the prospect of developing new skills and gaining new 
               perspectives on life and work. My different educational 
               backgrounds work together and build upon my unique 
               skill-set, improving my overall potential to innovatively 
@@ -43,7 +43,7 @@ class About extends Component {
         
       </div>
 
-      <div className='aboutWebSection'>
+      <div className='aboutEdSection'>
         <Row>
           <Col size='12'>
             <h3 className='aboutSubTitle text-center text-md-left'>Web Development</h3>

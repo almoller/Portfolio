@@ -6,6 +6,7 @@ import { Container, Row, Col } from './components/Grid';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Landing from './pages/Landing';
 
 
 
@@ -17,9 +18,11 @@ class App extends Component {
         <Container fluid>
         <div className="content">
           <header>
+            <Link className='logoLink' to='/Landing'>
             <div className='logoDiv'>
               <img className='logo' src={logo} alt='logo' />
             </div>
+            </Link>
             <nav className="navBar">
               <ul>
                 <li>
@@ -51,6 +54,8 @@ class App extends Component {
           <Route path="/" exact component={Portfolio} />
           <Route path="/about" exact strict component={About}/>
           <Route path="/contact" exact strict component={Contact}/>
+          <Route path="/landing" exact strict component={Landing}/>
+
 
 
         </div>

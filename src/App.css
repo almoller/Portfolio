@@ -18,6 +18,30 @@ body {
   flex: 1 0 auto;
 }
 
+/***** LANDING *****/
+.landingWrapper {
+  /* background-image: url('./images/Broads-Fork-bg.jpg'); */
+  /* background-size: cover; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.landingDiv {
+  height: 400px;
+  width: 200px;
+  margin: 25px;
+  /* background-image: url('') */
+  background: rgba(0, 0, 0, 0.4);
+  /* display: flex; */
+
+}
+
+.landingDivTitle {
+  text-align: center;
+  color: #dddddd;
+  /* align-self: flex-end; */
+}
 
 /***** HEADER & NAVBAR *****/
 
@@ -27,7 +51,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   height: 100%;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   padding: 15px 20px;
   box-shadow: 0 0.5px 20px black;
   width: 100%;
@@ -80,6 +104,7 @@ ul {
   border-bottom: solid 2px greenyellow;
   width: 75%;
   margin: 0 auto;
+  margin-top: 25px;
 }
 
 .pageSubTitle {
@@ -167,7 +192,7 @@ ul {
   margin-top: 20px;
 }
 
-.aboutWebSection {
+.aboutEdSection {
   background: rgba(175, 175, 175, 0.3);
   padding: 20px;
   margin-bottom: 25px;
