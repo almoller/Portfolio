@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom'
 import './App.css';
 import logo from './images/alan-logo.png';
 import { Container, Row, Col } from './components/Grid';
-import Portfolio from './pages/Portfolio';
+import PortfolioMain from './pages/PortfolioMain';
+import PortfolioWeb from './pages/PortfolioWeb';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Landing from './pages/Landing';
@@ -16,62 +17,19 @@ class App extends Component {
     return (
       <Router>
         <Container fluid>
-        <div className="content">
-          <header>
-            <Link className='logoLink' to='/Landing'>
-            <div className='logoDiv'>
-              <img className='logo' src={logo} alt='logo' />
-            </div>
-            </Link>
-            <nav className="navBar">
-              <ul>
-                <li>
-                  <NavLink className="link" to="/"
-                      exact activeStyle={{
-                        fontWeight: '500',
-                        background: 'rgba(175, 175, 175, 0.4)'
-                      }}>Portfolio</NavLink>
-                </li>
-                <li>
-                  <NavLink className="link" to="/about"
-                      exact activeStyle={{
-                        fontWeight: '500',
-                        background: 'rgba(175, 175, 175, 0.4)'
-                      }}>About</NavLink>
-                </li>
-                <li>
-                  <NavLink className="link" to="/contact"
-                      exact activeStyle={{
-                        fontWeight: '500',
-                        background: 'rgba(175, 175, 175, 0.4)'
-                      }}>Contact</NavLink>
-                </li>
-              </ul>
-            </nav>
-          </header>
+          
           
 
-          <Route path="/" exact component={Portfolio} />
+          <Route path="/" exact component={Landing} />
           <Route path="/about" exact strict component={About}/>
           <Route path="/contact" exact strict component={Contact}/>
-          <Route path="/landing" exact strict component={Landing}/>
+          <Route path="/portfolio" exact strict component={PortfolioMain}/>
+          <Route path="/portfolio/web" exact strict component={PortfolioWeb}/>
 
 
 
-        </div>
 
-          <footer className="footer">
-            <Row>
-              <Col size='sm-12'>
-              <div className="footerLinks">
-                <Link className="footerLink" to="/">Portfolio</Link>
-                <Link className="footerLink" to="/about">About</Link>
-                <Link className="footerLink" to="/contact">Contact</Link>
-              </div>
-                <p>&copy; 2018 Alan Moller</p>
-              </Col>
-            </Row>
-          </footer>
+          
 
         </Container>
       

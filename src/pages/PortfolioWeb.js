@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-// import './App.css';
 import { Container, Row, Col } from '../components/Grid';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import Jumbotron from '../components/Jumbotron';
 import Skills from '../components/Skills';
 import Project from '../components/Project';
 import projects from '../projects.json';
-// import badge from '../images/coding-badge-UofU.png';
 
 
-class Portfolio extends Component {
+class PortfolioWeb extends Component {
     state = {
       projects
     }
@@ -16,6 +16,9 @@ class Portfolio extends Component {
     render() {
       return (
         <Container fluid>
+          
+          <Header />
+
         <h2 className='text-center pageTitle'>Portfolio</h2>
         <h3 className='pageSubTitle'>Web Development</h3>
           <Row>
@@ -45,7 +48,8 @@ class Portfolio extends Component {
           </Row>
   
             
-  
+          <Footer />
+
         </Container>
         
         
@@ -53,4 +57,4 @@ class Portfolio extends Component {
     }
   }
   
-  export default Portfolio;
+  export default PortfolioWeb;

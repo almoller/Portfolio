@@ -2,42 +2,42 @@
   {
     "id": 1,
     "header": "NYT Article Search",
-    "image": "images/buildings.png",
+    "image": "/images/buildings.png",
     "info": "MERN Stack application uses New York Times API to search for articles. Connects with a database for saving and removing found articles.",
     "url": "https://articlesearch-am.herokuapp.com/"
   },
   {
     "id": 2,
     "header": "Memory Game",
-    "image": "images/memoryGame.png",
+    "image": "/images/memoryGame.png",
     "info": "React App memory game consisting of 12 images which shuffle with each click. The goal is to click each image only once.",
     "url": "https://almoller.github.io/memory-game/"
   },
   {
     "id": 3,
     "header": "Crystal Collector Game",
-    "image": "images/triangles.png",
+    "image": "/images/triangles.png",
     "info": "Javascript / jQuery app. The goal is to match a given number by selecting crystals each worth hidden random values.",
     "url": "https://almoller.github.io/crystal-collector-game/"
   },
   {
     "id": 4,
     "header": "Timed Trivia",
-    "image": "images/7-lone.jpg",
+    "image": "/images/7-lone.jpg",
     "info": "Javascript / jQuery app. The goal is to answer a set of questions about the Wasatch Mountains before a timer runs out.",
     "url": "https://almoller.github.io/TriviaGame/"
   },
   {
     "id": 5,
     "header": "Gif App",
-    "image": "images/gifApp.png",
+    "image": "/images/gifApp.png",
     "info": "Javascript / jQuery app. Uses AJAX request to an API. Create custom topic buttons to generate a set of related gifs.",
     "url": "https://almoller.github.io/Gif-App/"
   },
   {
     "id": 6,
     "header": "Bamazon App",
-    "image": "images/bamazon.png",
+    "image": "/images/bamazon.png",
     "info": "Node.JS App that uses MySQL database.  App lists items from the database and updates item info based on user selections.",
     "url": "https://github.com/almoller/bamazon"
   }

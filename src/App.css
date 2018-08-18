@@ -19,28 +19,66 @@ body {
 }
 
 /***** LANDING *****/
+.landingBG {
+  background-image: url('./images/topography.png');
+  height: 100%;
+}
 .landingWrapper {
-  /* background-image: url('./images/Broads-Fork-bg.jpg'); */
-  /* background-size: cover; */
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  /* align-content: center; */
+  margin-top: 0;
+  /* background: rgba(255, 255, 255, 0.4); */
+}
+
+.landingLogo img {
+  background-image: url('./images/topography.png');
+
+  /* background: rgba(255, 255, 255, 0.4); */
+  padding: 35px 25px 20px 25px;
+  margin-bottom: 50px;
+  /* border-radius: 25px; */
+  width: 100%;
+}
+
+.landingText {
+  width: 70%;
+  color: #dddddd;
+  font-size: 15pt;
+  margin: 0 auto;
+}
+
+.landingLinksWrapper {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
 }
 
 .landingDiv {
-  height: 400px;
-  width: 200px;
-  margin: 25px;
-  /* background-image: url('') */
-  background: rgba(0, 0, 0, 0.4);
-  /* display: flex; */
+  height: 100px;
+  width: 100px;
+  margin: 50px 30px 30px 30px;
+  border-radius: 50px;
+  background: rgba(173, 255, 47, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.landingLink:hover {
+  text-decoration: none;
+}
+
+.landingLink div:hover {
+  box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.6);
 }
 
 .landingDivTitle {
+  font-size: 14pt;
   text-align: center;
   color: #dddddd;
-  /* align-self: flex-end; */
 }
 
 /***** HEADER & NAVBAR *****/
@@ -94,6 +132,25 @@ ul {
   color: black;
   background: rgba(175, 175, 175, 0.4);
   box-shadow: 2px 3px 5px #888888;
+}
+
+/***** PORTFOLIO - MAIN *****/
+.portfolioMainWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolioMainDiv {
+  height: 400px;
+  width: 200px;
+  margin: 25px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.portfolioMainDivTitle {
+  text-align: center;
+  color: #dddddd;
 }
 
 
@@ -189,13 +246,17 @@ ul {
   color: #fff;
 }
 .aboutSection {
+  margin: 0 auto;
   margin-top: 20px;
+  width: 85%;
 }
 
 .aboutEdSection {
   background: rgba(175, 175, 175, 0.3);
   padding: 20px;
+  margin: 0 auto;
   margin-bottom: 25px;
+  width: 75%;
 }
 
 .aboutSubTitle {
@@ -304,6 +365,26 @@ ul {
 @media only screen and (min-width: 660px) {
   header {
     justify-content: space-between;
+  }
+
+  .landingWrapper {
+    margin-top: 150px;
+  }
+
+  .landingLogo img {
+    margin-bottom: 25px;
+    padding: 35px 25px;
+    border-radius: 25px;
+    width: 65%;
+  }
+
+  .landingText {
+    font-size: 13pt;
+    width: 50%;
+  }
+
+  .landingDiv {
+    margin: 30px;
   }
   
 }

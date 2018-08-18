@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from '../components/Grid';
-// import Jumbotron from '../components/Jumbotron';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import AboutWeb from '../components/AboutWeb';
 import AboutDesign from '../components/AboutDesign';
 import profilePic from '../images/alan-profile-pic.jpg';
@@ -10,7 +11,9 @@ class About extends Component {
 
   render() {
     return (
-      <Container>
+      <Container fluid>
+
+        <Header />
       
       <h2 className='text-center pageTitle'>About</h2>
       <div className='text-center aboutSection'>
@@ -68,6 +71,8 @@ class About extends Component {
           </Col>
         </Row>
       </div>
+
+        <Footer />
 
       </Container>
     );
