@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col } from '../components/Grid';
+import { Container } from '../components/Grid';
 import logo from '../images/alan-logo.png';
 
 
@@ -13,7 +13,7 @@ class Landing extends Component {
         <div className='landingWrapper'>
 
           <div className='landingLogo text-center'>
-            <img src={logo} alt="logo image" />
+            <img src={logo} alt="logo" />
           </div>
 
           <p className='landingText text-center'>

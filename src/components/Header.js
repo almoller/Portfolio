@@ -16,7 +16,7 @@ const Header = () => (
       <ul>
         <li>
           <NavLink className="link" to="/portfolio"
-              exact activeStyle={{
+              activeStyle={{
                 fontWeight: '500',
                 background: 'rgba(175, 175, 175, 0.4)'
               }}>Portfolio</NavLink>

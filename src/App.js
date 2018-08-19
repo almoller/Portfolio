@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
-import logo from './images/alan-logo.png';
-import { Container, Row, Col } from './components/Grid';
+import { Container } from './components/Grid';
 import PortfolioMain from './pages/PortfolioMain';
 import PortfolioWeb from './pages/PortfolioWeb';
 import About from './pages/About';
@@ -24,7 +23,7 @@ class App extends Component {
           <Route path="/about" exact strict component={About}/>
           <Route path="/contact" exact strict component={Contact}/>
           <Route path="/portfolio" exact strict component={PortfolioMain}/>
-          <Route path="/portfolio/web" exact strict component={PortfolioWeb}/>
+          <Route path="/portfolio/web" component={PortfolioWeb}/>
 
 
 
