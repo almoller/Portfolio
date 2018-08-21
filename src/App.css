@@ -138,6 +138,16 @@ ul {
   justify-content: center;
 }
 
+.portfolioMainWeb {
+  height: 400px;
+  width: 200px;
+  margin: 25px;
+  background-image: url('./images/portfolioWeb.jpg');
+}
+
+.portfolioMainWeb:hover {
+  box-shadow: 0px 3px 15px black;
+}
 .portfolioMainDiv {
   height: 400px;
   width: 200px;
@@ -147,7 +157,11 @@ ul {
 
 .portfolioMainDivTitle {
   text-align: center;
-  color: #dddddd;
+  color: #fff;
+  font-weight: bold;  
+}
+.portfolioLink:hover {
+  text-decoration: none;
 }
 
 
@@ -250,7 +264,7 @@ ul {
 
 .aboutEdSection {
   background: rgba(175, 175, 175, 0.3);
-  padding: 20px;
+  padding: 20px 10px;
   margin: 0 auto;
   margin-bottom: 25px;
   width: 75%;

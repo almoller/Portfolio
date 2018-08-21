@@ -8,10 +8,10 @@ const AboutDesign = () => (
   <Row>
     <Col size='md-6'>
       <p className='aboutText'>
-        I obtained a solid foundation in Graphic Design at 
-        the Utah Valley University. I obtained a solid foundation in Graphic Design at 
-        the Utah Valley University. I obtained a solid foundation in Graphic Design at 
-        the Utah Valley University.
+        As a Meteorologist I discovered a strong interest in Graphic Design.
+        While that seems like an odd combination, both are honest interests of
+        mine and I desired to have formal training in both fields. I obtained 
+        a solid foundation in Graphic Design at Utah Valley University.
         </p>
         <p className='aboutText'>
         I obtained a solid foundation in Graphic Design at 

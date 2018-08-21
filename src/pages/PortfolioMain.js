@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Container } from '../components/Grid';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+// import webIMG from '../images/portfolioWeb.jpg';
 
 
 class PortfolioMain extends Component {
@@ -18,8 +19,8 @@ class PortfolioMain extends Component {
 
           <div className='portfolioMainWrapper'>
                   
-            <Link to="/portfolio/web">
-              <div className='portfolioMainDiv'>
+            <Link className='portfolioLink' to="/portfolio/web">
+              <div className='portfolioMainWeb'>
                 <h1 className='portfolioMainDivTitle'>Web</h1>
               </div>
             </Link>

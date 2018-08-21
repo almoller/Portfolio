@@ -8,8 +8,16 @@ const AboutMeteo = () => (
   <Row>
     <Col size='md-6'>
       <p className='aboutText'>
-        I obtained a solid foundation in Meteorology at 
-        the University of Utah.
+        Meteorology has been a strong interest of mine since I was
+        a kid.  I have always loved studying and observing weather 
+        in all its variety. With this passion, I obtained a solid 
+        foundation in Meteorology at the University of Utah.
+      </p>
+      <p className='aboutText'>
+        I was privilaged to work as a Meteorologist with great colleagues
+        at the Utah Climate Center. While my duties there were deeply rooted
+        in the world of science, some also awakened my interest and desire
+        to obtain formal training in design and visual communication.
       </p>
     </Col>
     <Col size='md-6'>
