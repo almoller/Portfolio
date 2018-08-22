@@ -138,16 +138,27 @@ ul {
   justify-content: center;
 }
 
-.portfolioMainWeb {
+.portfolioMainWeb,
+.portfolioMainDesign {
   height: 400px;
   width: 200px;
   margin: 25px;
+  border: solid 2px slategrey;
+}
+
+.portfolioMainWeb {
   background-image: url('./images/portfolioWeb.jpg');
 }
 
-.portfolioMainWeb:hover {
+.portfolioMainDesign {
+  background-image: url('./images/portfolioDesign.jpg');
+}
+
+.portfolioMainWeb:hover,
+.portfolioMainDesign:hover {
   box-shadow: 0px 3px 15px black;
 }
+
 .portfolioMainDiv {
   height: 400px;
   width: 200px;
@@ -331,11 +342,35 @@ ul {
 
 /***** CONTACT *****/
 
-.icon img{
-  padding: 10px;
-  border-bottom: solid 1px greenyellow;
+.contactText {
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 75%;
 }
 
+.email {
+  color: #dddddd;
+  font-size: 16pt;
+  margin-top: 35px;
+  padding-top: 20px;
+  border-top: solid 1px #888888;
+}
+
+.iconSection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.icon img{
+  padding: 10px;
+  margin: 15px;
+}
+
+.icon img:hover {
+  border-bottom: solid 1px greenyellow;
+}
 
 /***** FOOTER *****/
 
@@ -396,6 +431,10 @@ ul {
 
   .landingDiv {
     margin: 30px;
+  }
+
+  .contactText {
+    width: 50%;
   }
   
 }

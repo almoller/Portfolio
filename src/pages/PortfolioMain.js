@@ -26,14 +26,14 @@ class PortfolioMain extends Component {
             </Link>
 
 
-              <div className='portfolioMainDiv'>
+              <div className='portfolioMainDesign'>
                 <h1 className='portfolioMainDivTitle'>Design</h1>
               </div>
 
 
-              <div className='portfolioMainDiv'>
+              {/* <div className='portfolioMainDiv'>
                 <h1 className='portfolioMainDivTitle'>Weather</h1>
-              </div>
+              </div> */}
 
 
         </div>

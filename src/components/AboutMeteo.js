@@ -24,8 +24,6 @@ const AboutMeteo = () => (
     <div className='card text-center text-xl-left'>
         <div className='card-body'>
 
-          {/* <h3 className='card-title'>Experience in Meteorology</h3> */}
-
           <h4 className='aboutExperienceJob text-center text-xl-left'>Utah Climate Center
             <span><p className='aboutExperienceDate text-center text-xl-left'> 8/2006 - 8/2010</p></span>
           </h4>

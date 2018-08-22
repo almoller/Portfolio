@@ -14,18 +14,16 @@ const AboutDesign = () => (
         a solid foundation in Graphic Design at Utah Valley University.
         </p>
         <p className='aboutText'>
-        I obtained a solid foundation in Graphic Design at 
-        the Utah Valley University.
-        I obtained a solid foundation in Graphic Design at 
-        the Utah Valley University.
+        I look forward to any oportunity that allows me to put my graphic design 
+        skills to use.  It is fun for me and often theraputic to work through the
+        design process to obtain a satisfying result.
+  
       </p>
     </Col>
     <Col size='md-6'>
     
       <div className='card text-center text-xl-left'>
         <div className='card-body'>
-
-          {/* <h3 className='card-title'>Experience in Design</h3> */}
 
           <h4 className='aboutExperienceJob text-center text-xl-left'>Tueller's Press
             <span><p className='aboutExperienceDate text-center text-xl-left'> 6/2015 - 11/2015</p></span>

@@ -39,7 +39,9 @@ class About extends Component {
               perspectives on life and work. My different educational 
               backgrounds work together and build upon my unique 
               skill-set, improving my overall potential to innovatively 
-              problem-solve and contribute to sociey.
+              problem-solve and contribute to help bring great projects
+              to fruition. I am excited at this prospect and look forward 
+              to the new adventures that lie before me.
             </p>
           </Col>
         </Row>
