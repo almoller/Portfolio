@@ -3,15 +3,13 @@ import { NavLink } from 'react-router-dom';
 import { Container, Row, Col } from '../components/Grid';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Jumbotron from '../components/Jumbotron';
-import Skills from '../components/Skills';
-import Project from '../components/Project';
-import projects from '../projects.json';
+import DesignSection from '../components/DesignSection';
+import designsections from '../design-sections.json';
 
 
-class PortfolioWeb extends Component {
+class PortfolioDesign extends Component {
     state = {
-      projects
+      designsections
     }
     
     render() {
@@ -32,30 +30,21 @@ class PortfolioWeb extends Component {
           <Row>
             <Col size='sm-12'>
             <div className="projectSection">
-              {this.state.projects.map(project => (
-                <Project
-                  id={project.id}
-                  key={project.id}
-                  header={project.header}
-                  image={project.image}
-                  info={project.info}
-                  url={project.url}
+              {this.state.designsections.map(designsection => (
+                <DesignSection
+                  id={designsection.id}
+                  key={designsection.id}
+                  header={designsection.header}
+                  image={designsection.image}
+                  info={designsection.info}
+                  url={designsection.url}
                 />
               ))}
             </div>
             </Col>
           </Row>
   
-          <Row>
-            <Col size="12">
-              <Jumbotron>
-                <Skills />
-              </Jumbotron>
-            </Col>
-            
-          </Row>
-  
-            
+                      
           <Footer />
 
         </Container>
@@ -65,4 +54,4 @@ class PortfolioWeb extends Component {
     }
   }
   
-  export default PortfolioWeb;
+  export default PortfolioDesign;

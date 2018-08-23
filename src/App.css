@@ -140,7 +140,7 @@ ul {
 
 .portfolioMainWeb,
 .portfolioMainDesign {
-  height: 400px;
+  height: 275px;
   width: 200px;
   margin: 25px;
   border: solid 2px slategrey;
@@ -186,12 +186,19 @@ ul {
   margin-top: 25px;
 }
 
+.pageSubTitleContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5px;
+}
 .pageSubTitle {
   font-size: 12pt;
   color: #fff;
-  width: 75%;
-  margin: 0 auto;
-  margin-top: 5px;
+  /* width: 75%; */
+  /* margin: 0 auto; */
+  /* margin-top: 5px; */
+  margin: 5px 10px;
 
 }
 
@@ -407,6 +414,12 @@ ul {
 
 
 /***** Responsive Adjustments *****/
+@media only screen and (min-width: 500px) {
+  .portfolioMainWeb,
+  .portfolioMainDesign {
+    height: 400px;
+  }
+}
 
 @media only screen and (min-width: 660px) {
   header {
@@ -437,4 +450,13 @@ ul {
     width: 50%;
   }
   
+  .pageSubTitleContainer {
+    justify-content: center;
+  }
+
+  /* .portfolioMainWeb,
+  .portfolioMainDesign {
+    height: 400px;
+  } */
+
 }

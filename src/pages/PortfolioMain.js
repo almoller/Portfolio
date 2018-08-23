@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Container } from '../components/Grid';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 // import webIMG from '../images/portfolioWeb.jpg';
+import PortfolioWeb from './PortfolioWeb';
 
 
 class PortfolioMain extends Component {
@@ -25,10 +26,11 @@ class PortfolioMain extends Component {
               </div>
             </Link>
 
-
+            <Link className='portfolioLink' to="/portfolio/design">
               <div className='portfolioMainDesign'>
                 <h1 className='portfolioMainDivTitle'>Design</h1>
               </div>
+            </Link>
 
 
               {/* <div className='portfolioMainDiv'>
@@ -41,7 +43,6 @@ class PortfolioMain extends Component {
           <Footer />
 
         </Container>
-        
         
       );
     }

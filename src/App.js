@@ -7,6 +7,7 @@ import PortfolioWeb from './pages/PortfolioWeb';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Landing from './pages/Landing';
+import PortfolioDesign from './pages/PortfolioDesign';
 
 
 
@@ -24,6 +25,7 @@ class App extends Component {
           <Route path="/contact" exact strict component={Contact}/>
           <Route path="/portfolio" exact strict component={PortfolioMain}/>
           <Route path="/portfolio/web" component={PortfolioWeb}/>
+          <Route path="/portfolio/design" component={PortfolioDesign}/>
 
 
 

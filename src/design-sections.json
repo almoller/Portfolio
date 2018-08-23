@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "header": "3D Design",
+    "image": "/images/designSections/3d.jpg",
+    "info": "Check here to see some real 3D action.",
+    "url": "https://articlesearch-am.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "header": "Graphic Design",
+    "image": "/images/designSections/graphicDesign.jpg",
+    "info": "Logo design and associated stationary design.",
+    "url": "https://almoller.github.io/memory-game/"
+  },
+  {
+    "id": 3,
+    "header": "Interactive Design",
+    "image": "/images/designSections/interactiveDesign.jpg",
+    "info": "Animated design projects utilizing Adobe AfterEffects.",
+    "url": "https://almoller.github.io/crystal-collector-game/"
+  },
+  {
+    "id": 4,
+    "header": "Photography",
+    "image": "/images/designSections/photography.jpg",
+    "info": "Good old fashioned fun in the dark room",
+    "url": "https://almoller.github.io/TriviaGame/"
+  },
+  {
+    "id": 5,
+    "header": "Typography",
+    "image": "/images/designSections/typography.jpg",
+    "info": "Examples of typography and layout in design.",
+    "url": "https://almoller.github.io/Gif-App/"
+  }
+]
