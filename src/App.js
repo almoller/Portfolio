@@ -10,6 +10,8 @@ import Landing from './pages/Landing';
 import PortfolioDesign from './pages/PortfolioDesign';
 import Typography from './pages/Typography';
 import GraphicDesign from './pages/GraphicDesign';
+import Photography from './pages/Photography';
+import DigitalImaging from './pages/DigitalImaging';
 
 
 
@@ -31,6 +33,8 @@ class App extends Component {
 
           <Route path="/portfolio/design/typography" exact component={Typography}/>
           <Route path="/portfolio/design/graphic-design" exact component={GraphicDesign}/>
+          <Route path="/portfolio/design/photography" exact component={Photography}/>
+          <Route path="/portfolio/design/digital-imaging" exact component={DigitalImaging}/>
 
           
 

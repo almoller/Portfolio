@@ -290,8 +290,14 @@ ul {
 }
 
 .typography-image img,
-.graphicDesign-image img{
+.graphicDesign-image img,
+.photography-image img {
   width: 200px;
+  margin: 10px;
+}
+
+.digitalImaging-image img {
+  width: 400px;
   margin: 10px;
 }
 
@@ -445,15 +451,7 @@ ul {
   margin-bottom: 5px;
 }
 
-/* CAROUSEL */
-.carouselComp {
-  margin: 0 auto;
-  width: 75%;
-}
 
-.thumb {
-  width: 20% !important;
-}
 
 
 

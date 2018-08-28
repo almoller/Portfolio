@@ -18,14 +18,14 @@
     "header": "Digital Imaging",
     "image": "/images/designSections/Broads-Fork.jpg",
     "info": "A collection of composite panoramic images.",
-    "url": "https://almoller.github.io/crystal-collector-game/"
+    "url": "/portfolio/design/digital-imaging"
   },
   {
     "id": 4,
     "header": "Photography",
     "image": "/images/designSections/photography.jpg",
     "info": "Good old fashioned fun in the dark room",
-    "url": "https://almoller.github.io/TriviaGame/"
+    "url": "/portfolio/design/photography"
   },
   {
     "id": 5,
