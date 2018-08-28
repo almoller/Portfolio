@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 import { Container, Row, Col } from '../components/Grid';
 import Header from '../components/Header';
+import PortfolioNav from '../components/PorfolioNav';
 import Footer from '../components/Footer';
 import Jumbotron from '../components/Jumbotron';
 import Skills from '../components/Skills';
 import Project from '../components/Project';
-import projects from '../projects.json';
+import projects from '../jsonFiles/projects.json';
 
 
 class PortfolioWeb extends Component {
@@ -20,15 +20,9 @@ class PortfolioWeb extends Component {
           
           <Header />
 
-        <h2 className='text-center pageTitle'>Portfolio</h2>
-        <div className='pageSubTitleContainer'>
-        <NavLink to="/portfolio/web" activeStyle={{background: 'rgba(175, 175, 175, 0.3)'}}>
-        <h3 className='pageSubTitle'>Web Development</h3>
-        </NavLink>
-        <NavLink to="/portfolio/design" activeStyle={{background: 'rgba(175, 175, 175, 0.3)'}}>
-        <h3 className='pageSubTitle'>Graphic Design</h3>
-        </NavLink>
-        </div>
+          <PortfolioNav />
+
+        
           <Row>
             <Col size='sm-12'>
             <div className="projectSection">

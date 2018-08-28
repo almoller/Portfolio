@@ -1,6 +1,6 @@
-body {
+/* body {
   background-image: url('./images/wild_oliva.png');
-}
+} */
 
 .row {
   margin: 0;
@@ -12,6 +12,8 @@ body {
   min-height: 100vh;
   padding: 0;
   width: 100%;
+  background-image: url('./images/wild_oliva.png');
+
 }
 
 .content {
@@ -27,11 +29,16 @@ body {
   /* align-content: center; */
   margin-top: 0;
   /* background: rgba(255, 255, 255, 0.4); */
+  /* background-image: url('./images/escalante-textures/escalante-2.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: black 5px solid; */
 }
 
 .landingLogo img {
-  background-image: url('./images/topography.png');
-
+  /* background-image: url('./images/topography.png'); */
+  background-image: url('./images/escalante-textures/escalante-2.jpg');
+ background-size: cover;
   /* background: rgba(255, 255, 255, 0.4); */
   padding: 35px 25px 20px 25px;
   margin-bottom: 50px;
@@ -44,6 +51,7 @@ body {
   color: #dddddd;
   font-size: 15pt;
   margin: 0 auto;
+  padding-bottom: 25px;
 }
 
 .landingLinksWrapper {
@@ -54,11 +62,12 @@ body {
 }
 
 .landingDiv {
-  height: 100px;
-  width: 100px;
-  margin: 50px 30px 30px 30px;
-  border-radius: 50px;
-  background: rgba(173, 255, 47, 0.5);
+  /* height: 100px;
+  width: 100px; */
+  margin: 30px 10px;
+  /* border-radius: 50px; */
+  /* background: rgba(173, 255, 47, 0.5); */
+  background: rgba(0, 0, 0, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,6 +82,8 @@ body {
 }
 
 .landingDivTitle {
+  margin: 0;
+  padding: 10px 15px;
   font-size: 14pt;
   text-align: center;
   color: #fff;
@@ -264,6 +275,29 @@ ul {
 }
 
 
+/* PORTFOLIO - DESIGN */
+
+.designSectionTitle {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.images-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.typography-image img,
+.graphicDesign-image img{
+  width: 200px;
+  margin: 10px;
+}
+
+
+
+
 /***** ABOUT Page  *****/
 
 .profilePic img{
@@ -411,6 +445,16 @@ ul {
   margin-bottom: 5px;
 }
 
+/* CAROUSEL */
+.carouselComp {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.thumb {
+  width: 20% !important;
+}
+
 
 
 /***** Responsive Adjustments *****/
@@ -427,7 +471,8 @@ ul {
   }
 
   .landingWrapper {
-    margin-top: 150px;
+    /* margin-top: 150px; */
+    padding-top: 75px;
   }
 
   .landingLogo img {
@@ -444,6 +489,10 @@ ul {
 
   .landingDiv {
     margin: 30px;
+  }
+
+  .carouselComp {
+    width: 50%;
   }
 
   .contactText {

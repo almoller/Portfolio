@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Monogram - AM",
+    "image": "/images/portfolio-images/type1_p1monogram.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 2,
+    "name": "Typogram - Rapel",
+    "image": "/images/portfolio-images/type1_p2typogram.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 3,
+    "name": "Franklin Gothic Poster",
+    "image": "/images/portfolio-images/type1_p3typeposter.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 4,
+    "name": "Brochure - Yellowstone",
+    "image": "/images/portfolio-images/type1_p4brochure.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 5,
+    "name": "Book Cover",
+    "image": "/images/portfolio-images/type2_p1BookCover.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 6,
+    "name": "Menu",
+    "image": "/images/portfolio-images/type2_p2Menu.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 7,
+    "name": "Tread Magazine",
+    "image": "/images/portfolio-images/type2_p3Magazine.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 7.1,
+    "name": "Tread Magazine - Feature Spread",
+    "image": "/images/portfolio-images/type2_p3Magazine2.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 7.2,
+    "name": "Tread Magazine - Contents Spread",
+    "image": "/images/portfolio-images/type2_p3Magazine3.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 8,
+    "name": "Tenacity Magazine - Cover & Contents",
+    "image": "/images/portfolio-images/type3_Tenacity_CoverToC.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 9,
+    "name": "Tenacity Magazine - Departments",
+    "image": "/images/portfolio-images/type3_Tenacity_Depts.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 10,
+    "name": "Tenacity Magazine - Feature",
+    "image": "/images/portfolio-images/type3_Tenacity_Feature.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 11,
+    "name": "Snowbird Tram",
+    "image": "/images/portfolio-images/Snowbird_Tram.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 12,
+    "name": "Poster",
+    "image": "/images/portfolio-images/DP_p2Poster.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 13,
+    "name": "Calendar",
+    "image": "/images/portfolio-images/DP_p4Calendar.jpg",
+    "class": "typography-image",
+    "info": "",
+    "url": ""
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Bristlecone - Logo",
+    "image": "/images/portfolio-images/GD2_p1Logo_Bristlecone.jpg",
+    "class": "graphicDesign-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 2,
+    "name": "Salt Lake Bike Co. - Logo Rebrand",
+    "image": "/images/portfolio-images/GD2_p2Logo_SLCBC.jpg",
+    "class": "graphicDesign-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 3,
+    "name": "Utah Climate Center - Logo Rebrand",
+    "image": "/images/portfolio-images/GD1_p1Logo_UCC.jpg",
+    "class": "graphicDesign-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 4,
+    "name": "Utah Climate Center - Stationary",
+    "image": "/images/portfolio-images/GD1_p1Stationary_UCC.jpg",
+    "class": "graphicDesign-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 5,
+    "name": "Keen - Logo Rebrand",
+    "image": "/images/portfolio-images/GD1_p2Logo_KEEN.jpg",
+    "class": "graphicDesign-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 6,
+    "name": "Keen - Stationary",
+    "image": "/images/portfolio-images/GD1_p2Stationary_KEEN.jpg",
+    "class": "graphicDesign-image",
+    "info": "",
+    "url": ""
+  }
+]
