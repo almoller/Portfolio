@@ -17,38 +17,42 @@ class AdditionalCreations extends Component {
     render() {
       return (
         <Container fluid>
-          
-          <Header />
 
-          <PorfolioNav />
-          <DesignLinks />
+          <div className='content'>
+          
+            <Header />
+
+            <PorfolioNav />
+            <DesignLinks />
 
        
-          <Row>
-            <Col size='sm-12'>
-            <h1 className="designSectionTitle text-center">Additional Creations</h1>
+            <Row>
+              <Col size='sm-12'>
+                
+                <h1 className="designSectionTitle text-center">Additional Creations</h1>
 
-            <div className="images-section">
-              {this.state.additionalCreationsImages.map(additionalImage => (
-                <PortfolioImages
-                  id={additionalImage.id}
-                  key={additionalImage.id}
-                  name={additionalImage.name}
-                  image={additionalImage.image}
-                  class={additionalImage.class}
-                  info={additionalImage.info}
-                  url={additionalImage.url}
-                />
-              ))}
-            </div>
-            </Col>
-          </Row>
+                <div className="images-section">
+                  {this.state.additionalCreationsImages.map(additionalImage => (
+                    <PortfolioImages
+                      id={additionalImage.id}
+                      key={additionalImage.id}
+                      name={additionalImage.name}
+                      image={additionalImage.image}
+                      class={additionalImage.class}
+                      info={additionalImage.info}
+                      url={additionalImage.url}
+                    />
+                  ))}
+                </div>
+
+              </Col>
+            </Row>
   
+          </div>
                       
           <Footer />
 
-        </Container>
-        
+        </Container>        
         
       );
     }

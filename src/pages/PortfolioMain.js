@@ -11,32 +11,35 @@ class PortfolioMain extends Component {
     render() {
       return (
         <Container fluid>
+
+          <div className='content'>
           
-          <Header />
+            <Header />
 
-          <h2 className='text-center pageTitle'>Portfolio</h2>
+            <h2 className='text-center pageTitle'>Portfolio</h2>
 
-          <div className='portfolioMainWrapper'>
+            <div className='portfolioMainWrapper'>
                   
-            <Link className='portfolioLink' to="/portfolio/web">
-              <div className='portfolioMainWeb'>
-                <h1 className='portfolioMainDivTitle'>Web</h1>
-              </div>
-            </Link>
+              <Link className='portfolioLink' to="/portfolio/web">
+                <div className='portfolioMainWeb'>
+                  <h1 className='portfolioMainDivTitle'>Web</h1>
+                </div>
+              </Link>
 
-            <Link className='portfolioLink' to="/portfolio/design">
-              <div className='portfolioMainDesign'>
-                <h1 className='portfolioMainDivTitle'>Design</h1>
-              </div>
-            </Link>
+              <Link className='portfolioLink' to="/portfolio/design">
+                <div className='portfolioMainDesign'>
+                  <h1 className='portfolioMainDivTitle'>Design</h1>
+                </div>
+              </Link>
 
 
               {/* <div className='portfolioMainDiv'>
                 <h1 className='portfolioMainDivTitle'>Weather</h1>
               </div> */}
 
+            </div>
 
-        </div>
+          </div>
 
           <Footer />
 

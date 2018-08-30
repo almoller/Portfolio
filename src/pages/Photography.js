@@ -17,33 +17,38 @@ class Photography extends Component {
     render() {
       return (
         <Container fluid>
-          
-          <Header />
 
-          <PorfolioNav />
-          <DesignLinks />
+          <div className='content'>
+          
+            <Header />
+
+            <PorfolioNav />
+            <DesignLinks />
 
        
-          <Row>
-            <Col size='sm-12'>
-            <h1 className="designSectionTitle text-center">Photography</h1>
+            <Row>
+              <Col size='sm-12'>
+                
+                <h1 className="designSectionTitle text-center">Photography</h1>
 
-            <div className="images-section">
-              {this.state.photographyImages.map(photo => (
-                <PortfolioImages
-                  id={photo.id}
-                  key={photo.id}
-                  name={photo.name}
-                  image={photo.image}
-                  class={photo.class}
-                  info={photo.info}
-                  url={photo.url}
-                />
-              ))}
-            </div>
-            </Col>
-          </Row>
+                <div className="images-section">
+                  {this.state.photographyImages.map(photo => (
+                    <PortfolioImages
+                      id={photo.id}
+                      key={photo.id}
+                      name={photo.name}
+                      image={photo.image}
+                      class={photo.class}
+                      info={photo.info}
+                      url={photo.url}
+                    />
+                  ))}
+                </div>
+
+              </Col>
+            </Row>
   
+          </div>
                       
           <Footer />
 

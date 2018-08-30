@@ -7,45 +7,44 @@ import github from '../images/icon-github.png';
 
 const Contact = () => (
   <Container fluid>
+
     <div className='content'>
 
-    <Header />
+      <Header />
 
-    <div className='text-center'>
-      <h2 className='pageTitle'>Contact</h2>
+      <div className='text-center'>
 
-      <div className='contactText'>
-      <p>
-        Please feel free to contact me via email or connect
-        with me on LinkedIn or Github.
-      </p>
+        <h2 className='pageTitle'>Contact</h2>
 
-      <p className='email'>
-        moller.alan@gmail.com
-      </p>
-      </div>
+        <div className='contactText'>
+          <p>
+            Please feel free to contact me via email or connect
+            with me on LinkedIn or Github.
+          </p>
 
-      <div className='iconSection'>
+          <p className='email'>
+            moller.alan@gmail.com
+          </p>
+        </div>
 
-        <a href="https://www.linkedin.com/in/alan-moller-ab7886b">
-          <div className='icon'>
+        <div className='iconSection'>
+
+          <a className='icon' href="https://www.linkedin.com/in/alan-moller-ab7886b">
             <img src={linkedin} alt='linked-in icon' />
-          </div>
-        </a>
+          </a>
 
-        <a href="https://github.com/almoller">
-          <div className='icon'>
+          <a className='icon' href="https://github.com/almoller">
             <img src={github} alt='github icon' />
-          </div>
-        </a>
+          </a>
         
-      </div>
+        </div>
 
-    </div>
+      </div>
 
     </div>
 
     <Footer />
+    
   </Container>
 
 );

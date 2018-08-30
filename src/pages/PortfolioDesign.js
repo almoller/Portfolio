@@ -15,29 +15,32 @@ class PortfolioDesign extends Component {
     render() {
       return (
         <Container fluid>
-          
-          <Header />
 
-          <PorfolioNav />
+          <div className='content'>
+          
+            <Header />
+
+            <PorfolioNav />
 
        
-          <Row>
-            <Col size='sm-12'>
-            <div className="projectSection">
-              {this.state.designsections.map(designsection => (
-                <DesignSection
-                  id={designsection.id}
-                  key={designsection.id}
-                  header={designsection.header}
-                  image={designsection.image}
-                  info={designsection.info}
-                  url={designsection.url}
-                />
-              ))}
-            </div>
-            </Col>
-          </Row>
+            <Row>
+              <Col size='sm-12'>
+              <div className="projectSection">
+                {this.state.designsections.map(designsection => (
+                  <DesignSection
+                    id={designsection.id}
+                    key={designsection.id}
+                    header={designsection.header}
+                    image={designsection.image}
+                    info={designsection.info}
+                    url={designsection.url}
+                  />
+                ))}
+              </div>
+              </Col>
+            </Row>
   
+          </div>
                       
           <Footer />
 

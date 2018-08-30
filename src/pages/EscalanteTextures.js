@@ -17,33 +17,37 @@ class EscalanteTextures extends Component {
     render() {
       return (
         <Container fluid>
-          
-          <Header />
 
-          <PorfolioNav />
-          <DesignLinks />
+          <div className='content'>
+          
+            <Header />
+
+            <PorfolioNav />
+            <DesignLinks />
 
        
-       <Row>
-            <Col size='sm-12'>
-            <h1 className="designSectionTitle text-center">Escalante Textures</h1>
+            <Row>
+              <Col size='sm-12'>
+                <h1 className="designSectionTitle text-center">Escalante Textures</h1>
 
-            <div className="images-section">
-              {this.state.escalanteTexturesImages.map(texture => (
-                <PortfolioImages
-                  id={texture.id}
-                  key={texture.id}
-                  name={texture.name}
-                  image={texture.image}
-                  class={texture.class}
-                  info={texture.info}
-                  url={texture.url}
-                />
-              ))}
-            </div>
-            </Col>
-          </Row>
+                <div className="images-section">
+                  {this.state.escalanteTexturesImages.map(texture => (
+                    <PortfolioImages
+                      id={texture.id}
+                      key={texture.id}
+                      name={texture.name}
+                      image={texture.image}
+                      class={texture.class}
+                      info={texture.info}
+                      url={texture.url}
+                    />
+                  ))}
+                </div>
+
+              </Col>
+            </Row>
   
+          </div>
                       
           <Footer />
 

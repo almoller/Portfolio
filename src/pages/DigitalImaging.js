@@ -16,39 +16,44 @@ class DigitalImaging extends Component {
     
     render() {
       return (
-        <Container fluid>
-          
-          <Header />
 
-          <PorfolioNav />
-          <DesignLinks />
+        <Container fluid>
+
+          <div className='content'>
+          
+            <Header />
+
+            <PorfolioNav />
+            <DesignLinks />
 
        
-          <Row>
-            <Col size='sm-12'>
-            <h1 className="designSectionTitle text-center">Digital Imaging</h1>
+            <Row>
+              <Col size='sm-12'>
+                
+                <h1 className="designSectionTitle text-center">Digital Imaging</h1>
 
-            <div className="images-section">
-              {this.state.digitalImagingImages.map(digitalImage => (
-                <PortfolioImages
-                  id={digitalImage.id}
-                  key={digitalImage.id}
-                  name={digitalImage.name}
-                  image={digitalImage.image}
-                  class={digitalImage.class}
-                  info={digitalImage.info}
-                  url={digitalImage.url}
-                />
-              ))}
-            </div>
-            </Col>
-          </Row>
+                <div className="images-section">
+                  {this.state.digitalImagingImages.map(digitalImage => (
+                    <PortfolioImages
+                      id={digitalImage.id}
+                      key={digitalImage.id}
+                      name={digitalImage.name}
+                      image={digitalImage.image}
+                      class={digitalImage.class}
+                      info={digitalImage.info}
+                      url={digitalImage.url}
+                    />
+                  ))}
+                </div>
+
+              </Col>
+            </Row>
   
+          </div>
                       
           <Footer />
 
-        </Container>
-        
+        </Container>        
         
       );
     }

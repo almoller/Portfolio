@@ -17,38 +17,42 @@ class GraphicDesign extends Component {
     render() {
       return (
         <Container fluid>
-          
-          <Header />
 
-          <PorfolioNav />
-          <DesignLinks />
+          <div className='content'>
+          
+            <Header />
+
+            <PorfolioNav />
+            <DesignLinks />
 
        
-          <Row>
-            <Col size='sm-12'>
-            <h1 className="designSectionTitle text-center">Graphic Design</h1>
+            <Row>
+              <Col size='sm-12'>
+                
+                <h1 className="designSectionTitle text-center">Graphic Design</h1>
 
-            <div className="images-section">
-              {this.state.graphicDesignImages.map(GDImage => (
-                <PortfolioImages
-                  id={GDImage.id}
-                  key={GDImage.id}
-                  name={GDImage.name}
-                  image={GDImage.image}
-                  class={GDImage.class}
-                  info={GDImage.info}
-                  url={GDImage.url}
-                />
-              ))}
-            </div>
-            </Col>
-          </Row>
-  
+                <div className="images-section">
+                  {this.state.graphicDesignImages.map(GDImage => (
+                    <PortfolioImages
+                      id={GDImage.id}
+                      key={GDImage.id}
+                      name={GDImage.name}
+                      image={GDImage.image}
+                      class={GDImage.class}
+                      info={GDImage.info}
+                      url={GDImage.url}
+                    />
+                  ))}
+                </div>
+
+              </Col>
+            </Row>
+
+          </div>
                       
           <Footer />
 
-        </Container>
-        
+        </Container>        
         
       );
     }

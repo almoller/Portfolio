@@ -17,38 +17,40 @@ class PortfolioWeb extends Component {
     render() {
       return (
         <Container fluid>
-          
-          <Header />
 
-          <PortfolioNav />
+          <div className='content'>
+          
+            <Header />
+
+            <PortfolioNav />
 
         
-          <Row>
-            <Col size='sm-12'>
-            <div className="projectSection">
-              {this.state.projects.map(project => (
-                <Project
-                  id={project.id}
-                  key={project.id}
-                  header={project.header}
-                  image={project.image}
-                  info={project.info}
-                  url={project.url}
-                />
-              ))}
-            </div>
-            </Col>
-          </Row>
+            <Row>
+              <Col size='sm-12'>
+                <div className="projectSection">
+                  {this.state.projects.map(project => (
+                    <Project
+                      id={project.id}
+                      key={project.id}
+                      header={project.header}
+                      image={project.image}
+                      info={project.info}
+                      url={project.url}
+                    />
+                  ))}
+                </div>
+              </Col>
+            </Row>
   
-          <Row>
-            <Col size="12">
-              <Jumbotron>
-                <Skills />
-              </Jumbotron>
-            </Col>
-            
-          </Row>
+            <Row>
+              <Col size="12">
+                <Jumbotron>
+                  <Skills />
+                </Jumbotron>
+              </Col>
+            </Row>
   
+          </div>
             
           <Footer />
 

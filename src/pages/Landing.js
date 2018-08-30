@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-// import { Container } from '../components/Grid';
 import logo from '../images/alan-logo.png';
 
 
@@ -42,12 +41,9 @@ class Landing extends Component {
             intensive course in web development and decided to put my skills
             to use by creating this portfolio site to better house and display 
             my work. This application was build with React and React-Router-Dom.
-          </p>
+          </p>          
           
-          
-        </div>
-        
-        
+        </div>        
         
       );
     }

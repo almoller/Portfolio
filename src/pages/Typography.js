@@ -17,38 +17,42 @@ class Typography extends Component {
     render() {
       return (
         <Container fluid>
-          
-          <Header />
 
-          <PorfolioNav />
-          <DesignLinks />
+          <div className='content'>
+          
+            <Header />
+
+            <PorfolioNav />
+            <DesignLinks />
 
        
-          <Row>
-            <Col size='sm-12'>
-            <h1 className="designSectionTitle text-center">Typography</h1>
+            <Row>
+              <Col size='sm-12'>
+                
+                <h1 className="designSectionTitle text-center">Typography</h1>
 
-            <div className="images-section">
-              {this.state.typeImages.map(typeImage => (
-                <PortfolioImages
-                  id={typeImage.id}
-                  key={typeImage.id}
-                  name={typeImage.name}
-                  image={typeImage.image}
-                  class={typeImage.class}
-                  info={typeImage.info}
-                  url={typeImage.url}
-                />
-              ))}
-            </div>
-            </Col>
-          </Row>
+                <div className="images-section">
+                  {this.state.typeImages.map(typeImage => (
+                    <PortfolioImages
+                      id={typeImage.id}
+                      key={typeImage.id}
+                      name={typeImage.name}
+                      image={typeImage.image}
+                      class={typeImage.class}
+                      info={typeImage.info}
+                      url={typeImage.url}
+                    />
+                  ))}
+                </div>
+
+              </Col>
+            </Row>
   
+          </div>
                       
           <Footer />
 
-        </Container>
-        
+        </Container>        
         
       );
     }
