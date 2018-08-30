@@ -5,6 +5,7 @@ import PorfolioNav from '../components/PorfolioNav';
 import Footer from '../components/Footer';
 import PortfolioImages from '../components/PortfolioImages';
 import graphicDesignImages from '../jsonFiles/images-graphicDesign.json';
+import DesignLinks from '../components/DesignLinks';
 
 
 
@@ -20,6 +21,7 @@ class GraphicDesign extends Component {
           <Header />
 
           <PorfolioNav />
+          <DesignLinks />
 
        
           <Row>

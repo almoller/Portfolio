@@ -5,6 +5,7 @@ import PorfolioNav from '../components/PorfolioNav';
 import Footer from '../components/Footer';
 import PortfolioImages from '../components/PortfolioImages';
 import photographyImages from '../jsonFiles/images-photography.json';
+import DesignLinks from '../components/DesignLinks';
 
 
 
@@ -20,6 +21,7 @@ class Photography extends Component {
           <Header />
 
           <PorfolioNav />
+          <DesignLinks />
 
        
           <Row>

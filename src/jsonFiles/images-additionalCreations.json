@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Rock Carving",
+    "image": "/images/portfolio-images/3D_p3rock.jpg",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 2,
+    "name": "Guitar CD Player",
+    "image": "/images/portfolio-images/GuitarPlayer2.jpg",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 3,
+    "name": "Pomegranate",
+    "image": "/images/portfolio-images/3D_p2fruit.jpg",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 4,
+    "name": "Headphones",
+    "image": "/images/portfolio-images/3D_p1headphones.jpg",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 5,
+    "name": "Delicate Arch",
+    "image": "/images/portfolio-images/DI_Delicate-Arch_old-paper.jpg",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 6,
+    "name": "Snowbird",
+    "image": "/images/portfolio-images/Draw1_6snowbird.jpg",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 7,
+    "name": "Inversion",
+    "image": "/images/portfolio-images/inversion.jpg",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 8,
+    "name": "Web Layout",
+    "image": "/images/portfolio-images/ID1_p2app2.jpg",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 9,
+    "name": "Reading Challenge Poster",
+    "image": "/images/portfolio-images/ReadingChallenge-Poster.png",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 10,
+    "name": "Area Map",
+    "image": "/images/portfolio-images/wardMap.png",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 11,
+    "name": "Business Card 1",
+    "image": "/images/portfolio-images/YSA-info.png",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 12,
+    "name": "Business Card 2",
+    "image": "/images/portfolio-images/YSA-plan.png",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 13,
+    "name": "Flyer 1",
+    "image": "/images/portfolio-images/YSA-flyer1.png",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 14,
+    "name": "Flyer 2",
+    "image": "/images/portfolio-images/YSA-flyer2.png",
+    "class": "additional-image",
+    "info": "",
+    "url": ""
+  }
+]

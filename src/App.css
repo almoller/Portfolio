@@ -37,11 +37,11 @@
 
 .landingLogo img {
   /* background-image: url('./images/topography.png'); */
-  background-image: url('./images/escalante-textures/escalante-2.jpg');
+  background-image: url('./images/escalante-2.jpg');
  background-size: cover;
   /* background: rgba(255, 255, 255, 0.4); */
   padding: 35px 25px 20px 25px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   /* border-radius: 25px; */
   width: 100%;
 }
@@ -49,7 +49,7 @@
 .landingText {
   width: 70%;
   color: #dddddd;
-  font-size: 15pt;
+  font-size: 13pt;
   margin: 0 auto;
   padding-bottom: 25px;
 }
@@ -61,10 +61,10 @@
   justify-content: center;
 }
 
-.landingDiv {
+.landingLink {
   /* height: 100px;
   width: 100px; */
-  margin: 30px 10px;
+  margin: 30px 15px;
   /* border-radius: 50px; */
   /* background: rgba(173, 255, 47, 0.5); */
   background: rgba(0, 0, 0, 0.4);
@@ -72,14 +72,26 @@
   align-items: center;
   justify-content: center;
 }
+/* .landingDiv { */
+  /* height: 100px;
+  width: 100px; */
+  /* margin: 30px 10px; */
+  /* border-radius: 50px; */
+  /* background: rgba(173, 255, 47, 0.5); */
+  /* background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 .landingLink:hover {
   text-decoration: none;
-}
-
-.landingLink div:hover {
   box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.6);
 }
+
+/* .landingLink div:hover {
+  box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.6);
+} */
 
 .landingDivTitle {
   margin: 0;
@@ -291,14 +303,47 @@ ul {
 
 .typography-image img,
 .graphicDesign-image img,
-.photography-image img {
+.photography-image img,
+.additional-image img {
   width: 200px;
   margin: 10px;
 }
 
 .digitalImaging-image img {
-  width: 400px;
+  /* width: 390px; */
+  width: 80%;
+  margin: 15px 10% 15px 10%;
+  /* margin-left: 25%; */
+  /* margin: auto; */
+  /* margin: 15px; */
+}
+
+.escalanteTexture-image img {
+  width: 250px;
   margin: 10px;
+}
+
+/* DESIGN LINKS */
+.designLinks-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0 0px 0;
+}
+
+.designLinks-subContainer {
+  margin-bottom: 20px;
+}
+.designLink {
+  margin: 15px 10%;
+  padding-bottom: 5px;
+}
+
+.designLink img {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  /* margin: 0 10px; */
 }
 
 
@@ -481,16 +526,17 @@ ul {
   }
 
   .landingText {
-    font-size: 13pt;
+    font-size: 15pt;
     width: 50%;
   }
 
-  .landingDiv {
+  .landingLink {
     margin: 30px;
   }
 
-  .carouselComp {
-    width: 50%;
+  .jumbotron {
+    width: 80%;
+    margin: 0 auto 32px auto;
   }
 
   .contactText {
@@ -501,9 +547,15 @@ ul {
     justify-content: center;
   }
 
-  /* .portfolioMainWeb,
-  .portfolioMainDesign {
-    height: 400px;
-  } */
+  .typography-image img,
+  .graphicDesign-image img,
+  .photography-image img,
+  .additional-image img {
+    width: 250px;
+  }
+
+  .designLink {
+    margin: 15px 20px;
+  }
 
 }

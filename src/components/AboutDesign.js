@@ -14,7 +14,7 @@ const AboutDesign = () => (
         a solid foundation in Graphic Design at Utah Valley University.
         </p>
         <p className='aboutText'>
-        I look forward to any oportunity that allows me to put my graphic design 
+        I look forward to any opportunity that allows me to put my graphic design 
         skills to use.  It is fun for me and often theraputic to work through the
         design process to obtain a satisfying result.
   

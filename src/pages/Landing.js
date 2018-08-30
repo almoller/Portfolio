@@ -19,28 +19,29 @@ class Landing extends Component {
           <div className='landingLinksWrapper'>
         
             <Link className='landingLink' to="/portfolio">
-              <div className='landingDiv'>
                 <h1 className='landingDivTitle'>Portfolio</h1>
-              </div>
             </Link>
 
             <Link className='landingLink' to="/about">
-              <div className='landingDiv'>
                 <h1 className='landingDivTitle'>About</h1>
-              </div>
             </Link>
 
             <Link className='landingLink' to="/contact">
-              <div className='landingDiv'>
                 <h1 className='landingDivTitle'>Contact</h1>
-              </div>
             </Link>
         
           </div>
           
-          <p className='landingText text-center'>
-            Welcome to my profile page. I hope you enjoy what you find.
-            This application was build with React and React-Router-Dom.
+          <p className='landingText'>
+            Welcome to my portfolio site. I hope you enjoy what you find.
+            This site contains a collection of works I've completed as a
+            Web Developer and a Graphic Designer.
+          </p>
+          <p className='landingText'> 
+            I recently completed an 
+            intensive course in web development and decided to put my skills
+            to use by creating this portfolio site to better house and display 
+            my work. This application was build with React and React-Router-Dom.
           </p>
           
           

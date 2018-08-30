@@ -12,6 +12,8 @@ import Typography from './pages/Typography';
 import GraphicDesign from './pages/GraphicDesign';
 import Photography from './pages/Photography';
 import DigitalImaging from './pages/DigitalImaging';
+import AdditionalCreations from './pages/AdditionalCreations';
+import EscalanteTextures from './pages/EscalanteTextures';
 
 
 
@@ -35,6 +37,8 @@ class App extends Component {
           <Route path="/portfolio/design/graphic-design" exact component={GraphicDesign}/>
           <Route path="/portfolio/design/photography" exact component={Photography}/>
           <Route path="/portfolio/design/digital-imaging" exact component={DigitalImaging}/>
+          <Route path="/portfolio/design/additional-creations" exact component={AdditionalCreations}/>
+          <Route path="/portfolio/design/escalante-textures" exact component={EscalanteTextures}/>
 
           
 

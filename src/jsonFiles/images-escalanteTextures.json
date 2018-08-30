@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Escalante 1",
+    "image": "/images/escalante-textures/escalante-1.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 2,
+    "name": "Escalante 2",
+    "image": "/images/escalante-textures/escalante-2.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 3,
+    "name": "Escalante 1",
+    "image": "/images/escalante-textures/escalante-2.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  }
+]

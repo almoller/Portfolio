@@ -29,16 +29,16 @@
   },
   {
     "id": 5,
-    "header": "Interactive Design",
-    "image": "/images/designSections/interactiveDesign.jpg",
-    "info": "Animated design projects utilizing Adobe AfterEffects.",
-    "url": "https://almoller.github.io/crystal-collector-game/"
+    "header": "Escalante Textures",
+    "image": "/images/designSections/escalante-2.jpg",
+    "info": "A collection of digital images highlighting textures found near Escalante, Utah",
+    "url": "/portfolio/design/escalante-textures"
   },
   {
     "id": 6,
-    "header": "3D Design",
+    "header": "Additional Creations",
     "image": "/images/designSections/3d.jpg",
-    "info": "Check here to see some real 3D action.",
-    "url": "https://articlesearch-am.herokuapp.com/"
+    "info": "Mixed bag of creations including sculpture, drawing, digital imaging and layout design.",
+    "url": "/portfolio/design/additional-creations"
   }
 ]
