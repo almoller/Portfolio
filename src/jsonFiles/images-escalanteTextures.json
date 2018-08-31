@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Escalante 1",
-    "image": "/images/escalante-textures/escalante-1.jpg",
+    "image": "/images/escalante-textures/escalante1.jpg",
     "class": "escalanteTexture-image",
     "info": "",
     "url": ""
@@ -10,15 +10,159 @@
   {
     "id": 2,
     "name": "Escalante 2",
-    "image": "/images/escalante-textures/escalante-2.jpg",
+    "image": "/images/escalante-textures/escalante2.jpg",
     "class": "escalanteTexture-image",
     "info": "",
     "url": ""
   },
   {
     "id": 3,
-    "name": "Escalante 1",
-    "image": "/images/escalante-textures/escalante-2.jpg",
+    "name": "Escalante 3",
+    "image": "/images/escalante-textures/escalante3.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 4,
+    "name": "Escalante 4",
+    "image": "/images/escalante-textures/escalante4.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 5,
+    "name": "Escalante 5",
+    "image": "/images/escalante-textures/escalante5.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 6,
+    "name": "Escalante 6",
+    "image": "/images/escalante-textures/escalante6.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 7,
+    "name": "Escalante 7",
+    "image": "/images/escalante-textures/escalante7.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 8,
+    "name": "Escalante 8",
+    "image": "/images/escalante-textures/escalante8.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 9,
+    "name": "Escalante 9",
+    "image": "/images/escalante-textures/escalante9.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 10,
+    "name": "Escalante 10",
+    "image": "/images/escalante-textures/escalante10.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 11,
+    "name": "Escalante 11",
+    "image": "/images/escalante-textures/escalante11.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 12,
+    "name": "Escalante 12",
+    "image": "/images/escalante-textures/escalante12.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 13,
+    "name": "Escalante 13",
+    "image": "/images/escalante-textures/escalante13.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 14,
+    "name": "Escalante 14",
+    "image": "/images/escalante-textures/escalante14.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 15,
+    "name": "Escalante 15",
+    "image": "/images/escalante-textures/escalante15.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 16,
+    "name": "Escalante 16",
+    "image": "/images/escalante-textures/escalante16.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 17,
+    "name": "Escalante 17",
+    "image": "/images/escalante-textures/escalante17.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 18,
+    "name": "Escalante 19",
+    "image": "/images/escalante-textures/escalante18.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 19,
+    "name": "Escalante 19",
+    "image": "/images/escalante-textures/escalante19.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 20,
+    "name": "Escalante 20",
+    "image": "/images/escalante-textures/escalante20.jpg",
+    "class": "escalanteTexture-image",
+    "info": "",
+    "url": ""
+  },
+  {
+    "id": 21,
+    "name": "Escalante 21",
+    "image": "/images/escalante-textures/escalante21.jpg",
     "class": "escalanteTexture-image",
     "info": "",
     "url": ""
